@@ -15,3 +15,13 @@ print('Farenheit = ',F)
 F = int(input('Farenheit = '))
 C = (F-32)*5/9
 print('Celsius = ',C)
+
+
+print(max(2,5,6,7,8,2,0,3,11))
+
+print(min(2,5,6,7,8,2,-1,3,11))
+
+print(abs(-2020))
+
+print(pow(2,3))
+print('Hey There!\nThank you!')
