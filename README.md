@@ -5,6 +5,7 @@
 
 ### Task 1: Perform Basic Mathematical Operations
 Problem Statement:
+```
 1.Takes two numbers as input from the user.
 2.Performs the basic mathematical operations on these two numbers:
     Addition,
@@ -12,6 +13,7 @@ Problem Statement:
     Multiplication,
     Division
 3.  Displays the results of each operation on the screen
+```
 
 **Answer**
 ```
@@ -26,14 +28,18 @@ Step8: End
 ```
 
 ### Task 2: Create a Personalized Greeting
+```
 Problem Statement: 
 1.Takes a user's first name and last name as input.
 2.Concatenates the first name and last name into a full name.
 3.Prints a personalized greeting message using the full name
+```
 
-Answer:
+**Answer:***
+```
 Step1: Start
 Step2: Prompt message to the user to "Enter your first name and store it in a variable FirstName
 Step3: Prompt message to the user to "Enter your last name: " LastName and store it in a variable LastName
 Step4: Concatenate FirstName and LastName with the greeting message and prompt it.
 Step5: End
+```
