@@ -13,7 +13,8 @@ Problem Statement:
     Division
 3.  Displays the results of each operation on the screen
 
-Answer
+**Answer**
+```
 Step1: Start
 Step2: Prompt the user to enter a FirstNumber
 Step3: Prompt the user to enter the SecondNumber
@@ -22,7 +23,7 @@ Step5: Subtracting the same two numbers which user has entered
 Step6: Multiplying the same two numbers which user has entered
 Step7: Dividing the same two numbers which user has entered
 Step8: End
-
+```
 
 ### Task 2: Create a Personalized Greeting
 Problem Statement: 
