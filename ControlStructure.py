@@ -15,4 +15,9 @@ print("None")
     ##       Statement1
     ## ELSE
     ##       Statement2
+Marks = int(input('Enter a Marks: '))
 
+if Marks >= 40:
+    print("You have Passed!")
+else:
+    print("You have Failed!")
