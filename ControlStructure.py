@@ -10,3 +10,9 @@ if a>5:
     print("Greater than 5")
 print("None")
 
+# IF ELSE statement
+    ## IF (Expression);
+    ##       Statement1
+    ## ELSE
+    ##       Statement2
+
