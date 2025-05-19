@@ -81,3 +81,27 @@ for n in x:
 
 for i in range(1,5):
     print("n")
+
+
+
+# while loop
+#  counter variable
+# while test exp:
+#   statement
+#   inc+/dec-
+
+counter = 1
+while counter <= 5:
+    print('apple')
+    counter += 1
+
+
+count = 0
+while count <=10:
+    print(count)
+    count += 1
+
+counter  = 1
+while counter <= 5:
+    print("Python")
+    counter = counter + 1
