@@ -79,6 +79,5 @@ x= 'apple'
 for n in x:
     print(n)
 
-
 for i in range(1,5):
     print("n")
