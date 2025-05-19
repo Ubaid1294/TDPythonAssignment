@@ -57,7 +57,6 @@ else:
 print('Thank You!')
 
 
-
 # range --- has three parameters start, end, steps
 
 n = list(range(11))
@@ -81,8 +80,6 @@ for n in x:
 
 for i in range(1,5):
     print("n")
-
-
 
 # while loop
 #  counter variable
