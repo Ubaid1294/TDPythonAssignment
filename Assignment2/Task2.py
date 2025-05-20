@@ -1,4 +1,4 @@
-# Task 1
+# Task 2
 # Problem Statement:Sum of Integers from 1 to 50 Using a Loop
 # 1.   Uses a for loop to iterate over numbers from 1 to 50.
 # 2.   Calculates the sum of all integers in this range.
