@@ -82,27 +82,3 @@ Step 5: Increment i by 1
 Step 6: After the loop ends, print the value of Sum  
 Step 7: End
 ```
-
-
-## Assignment 3
-### Task 1 : 
-```
-Problem Statement: Write a Python program that:
-1.Defines a function named factorial that takes a number as an argument and calculates its factorial using a loop or recursion.
-2.Returns the calculated factorial.
-3.Calls the function with a sample number and prints the output.
-```
-
-**Answer**
-```
-Step 1: Start
-Step 2: Read an integer N from the user
-Step 3: Call the function Factorial(N)
-Step 4: Inside Factorial(N), check if N is less than or equal to 1
-Step 5: If yes, return 1 (base case)
-Step 6: If no, return N * Factorial(N - 1) (recursive case)
-Step 7: Receive the returned value from Factorial(N) and store it in Result
-Step 8: Print "Factorial of N is: Result"
-Step 9: End
-```
-
