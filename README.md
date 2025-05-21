@@ -65,7 +65,7 @@ Step 6: Print that the number is odd
 Step 7: End
 ```
 
-### Task 2:
+### Task 2: Check the Sum of 1-50 
 ```
 Problem Statement:Sum of Integers from 1 to 50 Using a Loop
 1.Uses a for loop to iterate over numbers from 1 to 50.
