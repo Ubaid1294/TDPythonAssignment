@@ -73,13 +73,26 @@ from math import factorial
 # 2! = 2 * 1! = 2 * 1 = 2
 # 3! = 3 * 2! = 3 * 2 = 6
 # 4! = 4 * 3! = 4 * 6 = 24
+#
+# n = int(input())
+# def Factorial(n):
+#     if n <= 1:
+#         return 1
+#     else:
+#         return n * Factorial(n-1)
+#
+# result = Factorial(n)
+# print(result)
+# import mathe
+#
+# print(mathe.pi)
 
-n = int(input())
-def Factorial(n):
-    if n <= 1:
-        return 1
-    else:
-        return n * Factorial(n-1)
 
-result = Factorial(n)
-print(result)
+try:
+    a=2
+    b=0
+    print(a/b)
+except ZeroDivisionError:
+    print("Division by zero")
+finally:
+    print("Other part of code is executing")
