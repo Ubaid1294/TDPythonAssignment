@@ -152,3 +152,30 @@ Step 9: If the file does not exist, handle the exception with except FileNotFoun
 Step 10: Print "Error: The file 'sample.txt' was not found."
 Step 11: End
 ```
+
+### # Task2 :Write and Append Data to a File
+```
+Problem Statement: Write a Python program that:
+1.Takes user input and writes it to a file named output.txt.
+2.Appends additional data to the same file.
+3.Reads and displays the final content of the file.
+```
+
+**Answer**
+```
+Step 1: Start
+Step 2: Prompt the user to enter text to write to the file and store it in InputWrite
+Step 3: Open the file output.txt in write mode ('w')
+Step 4: Write the content of InputWrite plus a newline character to the file
+Step 5: Close the file automatically (because of with statement)
+Step 6: Prompt the user to enter additional text to append and store it in InputAppend
+Step 7: Open the file output.txt in append mode ('a')
+Step 8: Write the content of InputAppend plus a newline character to the file
+Step 9: Close the file automatically
+Step 10: Print "Final content of output.txt:"
+Step 11: Open the file output.txt in read mode ('r')
+Step 12: Read the entire content of the file and store it in ReadingFile
+Step 13: Print the content stored in ReadingFile
+Step 14: Close the file automatically
+Step 15: End
+```
