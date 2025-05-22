@@ -128,3 +128,27 @@ Step 7: Calculate and print the natural logarithm of N using math.log(N)
 Step 8: Calculate and print the sine of N (in radians) using math.sin(N)
 Step 9: End
 ```
+
+## Assignment 4
+### Task 1: Read a File and Handle Errors
+```
+Problem Statement:  Write a Python program that:
+1.Opens and reads a text file named sample.txt.
+2.Prints its content line by line.
+3.Handles errors gracefully if the file does not exist.
+```
+
+**Answer**
+```
+Step 1: Start
+Step 2: Use a try block to attempt to open a file named 'sample.txt' in read mode
+Step 3: If the file opens successfully:
+Step 4: Initialize a variable Line = 1
+Step 5: For each line in the file:
+Step 6: Remove any trailing newline or whitespace characters using strip()
+Step 7: Print the line number and content as Line X : <line content>
+Step 8: Increment Line by 1
+Step 9: If the file does not exist, handle the exception with except FileNotFoundError:
+Step 10: Print "Error: The file 'sample.txt' was not found."
+Step 11: End
+```
