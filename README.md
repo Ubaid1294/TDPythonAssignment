@@ -153,7 +153,7 @@ Step 10: Print "Error: The file 'sample.txt' was not found."
 Step 11: End
 ```
 
-### # Task2 :Write and Append Data to a File
+### Task2: Write and Append Data to a File
 ```
 Problem Statement: Write a Python program that:
 1.Takes user input and writes it to a file named output.txt.
