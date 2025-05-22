@@ -34,7 +34,7 @@ Problem Statement:
 3.Prints a personalized greeting message using the full name
 ```
 
-**Answer:***
+**Answer***
 ```
 Step1: Start
 Step2: Prompt message to the user to "Enter your first name and store it in a variable FirstName
