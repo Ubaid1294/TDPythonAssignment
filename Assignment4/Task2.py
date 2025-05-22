@@ -8,7 +8,6 @@ InputWrite = input("Enter to write to the file: ")
 with open('output.txt','w') as file:
     file.write(InputWrite +'\n')
 
-
 InputAppend = input("Enter additional text to append: ")
 with open('output.txt','a') as file:
     file.write(InputAppend + '\n')
