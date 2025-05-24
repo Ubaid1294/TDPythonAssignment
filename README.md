@@ -167,3 +167,23 @@ Step 6: Print the 'Final Content of the output.txt' message.
 Step 7: Open the file output.txt in read mode (r) and read the content of the file and display that content.File closes automatically as I used open with() statement.
 Step 8: End
 ```
+
+## Assignment 5
+### Task 1: Create a Dictionary of Student Marks
+```
+Problem Statement: Write a Python program that:
+1. Creates a dictionary where student names are keys and their marks are values.
+2. Asks the user to input a student's name.
+3. Retrieves and displays the corresponding marks.
+4. If the student’s name is not found, display an appropriate message.
+```
+
+**Answer**
+```
+Step 1 : Start
+Step 2 : Create a dictionary of students that holds student name as keys and their marks as values.
+Step 3 : Take the Students name from the user as input.
+Step 4 : Search the marks of entered name from the dictionary and store their values into marks variable.
+Step 6 : Use the if statement to check whether the entered name exists in the dictionary.If present then return the students name and their marks otherwise return the message 'Student not found'.
+Step 7: End
+```
