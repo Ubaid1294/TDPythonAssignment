@@ -141,16 +141,11 @@ Problem Statement:  Write a Python program that:
 **Answer**
 ```
 Step 1: Start
-Step 2: Use a try block to attempt to open a file named 'sample.txt' in read mode
-Step 3: If the file opens successfully:
-Step 4: Initialize a variable Line = 1
-Step 5: For each line in the file:
-Step 6: Remove any trailing newline or whitespace characters using strip()
-Step 7: Print the line number and content as Line X : <line content>
-Step 8: Increment Line by 1
-Step 9: If the file does not exist, handle the exception with except FileNotFoundError:
-Step 10: Print "Error: The file 'sample.txt' was not found."
-Step 11: End
+Step 2: Use try block to attempt opening the sample.txt file.
+Step 3: To display output with line numbers, initialize a variable to keep track of the line number count.
+Step 4: Use for loop to read the file line by line and print each line along with its line number.
+Step 5: If the file does not exist in the directory, handle the error using except block with FileNotFoundError, and display the message 'File not Found' on the console.
+Step 7: End
 ```
 
 ### Task2: Write and Append Data to a File
@@ -164,18 +159,11 @@ Problem Statement: Write a Python program that:
 **Answer**
 ```
 Step 1: Start
-Step 2: Prompt the user to enter text to write to the file and store it in InputWrite
-Step 3: Open the file output.txt in write mode ('w')
-Step 4: Write the content of InputWrite plus a newline character to the file
-Step 5: Close the file automatically (because of with statement)
-Step 6: Prompt the user to enter additional text to append and store it in InputAppend
-Step 7: Open the file output.txt in append mode ('a')
-Step 8: Write the content of InputAppend plus a newline character to the file
-Step 9: Close the file automatically
-Step 10: Print "Final content of output.txt:"
-Step 11: Open the file output.txt in read mode ('r')
-Step 12: Read the entire content of the file and store it in ReadingFile
-Step 13: Print the content stored in ReadingFile
-Step 14: Close the file automatically
-Step 15: End
+Step 2: Take input from the user to write into the file.
+Step 3: Open the file in write mode (w) and write the entered content into the file.File closes automatically as I used open with() statement.
+Step 4: Take another input from the user to append into the file.
+Step 5: Open the file output.txt in append mode (a) and append the entered content into the file. File closes automatically as I used open with() statement.
+Step 6: Print the 'Final Content of the output.txt' message.
+Step 7: Open the file output.txt in read mode (r) and read the content of the file and display that content.File closes automatically as I used open with() statement.
+Step 8: End
 ```
