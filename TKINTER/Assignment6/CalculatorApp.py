@@ -121,7 +121,10 @@ def equal():
     elif math == 'Multiplication':
         EntryBox.insert(0, int(i) * int(result))
     elif math == 'Division':
-        EntryBox.insert(0, int(i)/int(result))
+        if int(result) ==0:
+            EntryBox.insert(0,"Not Defined")
+        else:
+            EntryBox.insert(0, int(i)/int(result))
 
 
 
